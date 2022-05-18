@@ -1,0 +1,28 @@
+==============================================================================
+Suites                                                                        
+==============================================================================
+Suites.LoginTest1                                                             
+==============================================================================
+LoginTest                                                               
+  Traceback (most recent call last):
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  C:\Users\User\PycharmProjects\PageObjectModel\TestCases\LoginTest1.robot:12
+    T:  LoginTest    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  C:\Users\User\PycharmProjects\PageObjectModel\TestCases\LoginTest1.robot:17
+      Click Login    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  C:\Users\User\PycharmProjects\PageObjectModel\Resources\LoginKeywords.robot:20
+      Click Button    ${btnLogin}
+      |  ${btnLogin} = name=login (str)
+______________________________________________________________________________
+| FAIL |
+WebDriverException: Message: Failed to decode response from marionette
+------------------------------------------------------------------------------
+Suites.LoginTest1                                                     | FAIL |
+1 test, 0 passed, 1 failed
+==============================================================================
+Suites                                                                | FAIL |
+1 test, 0 passed, 1 failed
+==============================================================================
+Output:  C:\Users\User\PycharmProjects\PageObjectModel\pabot_results\1\output.xml
